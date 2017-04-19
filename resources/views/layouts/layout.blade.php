@@ -67,9 +67,12 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
+                          <button type="submit" class="btn btn-default" style="float:right">Create a Trip<span class="glyphicon glyphicon-plus" style="margin-left:15px"></button>
+                          <!--
                             <div class="search_box pull-right">
                                 <input type="text" placeholder="Search"/>
                             </div>
+                          -->
                         </div>
                     </div>
                 </div>

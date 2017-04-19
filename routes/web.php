@@ -44,12 +44,8 @@ Route::get('/blog','Front@blog');
 Route::get('/blog/post/{id}','Front@blog_post');
 Route::get('/contact-us','Front@contact_us');
 Route::get('/login','Front@login');
+Route::get('/planning','Front@planning');
 Route::get('/logout','Front@logout');
 Route::get('/cart','Front@cart');
 Route::get('/checkout','Front@checkout');
 Route::get('/search/{query}','Front@search');
-
-Route::get('blade', function () {
-    $drinks = array('Vodka','Gin','Brandy');
-    return view('page',array('name' => 'The Raven','day' => 'Friday','drinks' => $drinks));
-});
