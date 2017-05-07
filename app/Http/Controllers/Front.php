@@ -15,6 +15,10 @@ class Front extends Controller {
         return view('planning', array('page' => 'planning'));
     }
 
+    public function flight() {
+        return view('flight', array('page' => 'flight'));
+    }
+
     public function product_details($id) {
         return view('product_details', array('page' => 'products'));
     }

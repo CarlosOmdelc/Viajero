@@ -45,6 +45,7 @@ Route::get('/blog/post/{id}','Front@blog_post');
 Route::get('/contact-us','Front@contact_us');
 Route::get('/login','Front@login');
 Route::get('/planning','Front@planning');
+Route::get('/flight', 'Front@flight');
 Route::get('/logout','Front@logout');
 Route::get('/cart','Front@cart');
 Route::get('/checkout','Front@checkout');
